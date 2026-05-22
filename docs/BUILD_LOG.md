@@ -16,3 +16,9 @@
 - Added Pydantic service definition models.
 - Loaded service definitions from `services.json`.
 - Exposed `GET /services`.
+
+## Phase 4: Health Checker
+
+- Added async HTTP health checks with `httpx`.
+- Captured status code, response time, error message, and checked timestamp.
+- Represented connection failures as `unhealthy` status snapshots.

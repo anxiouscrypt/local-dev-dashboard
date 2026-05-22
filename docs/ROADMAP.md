@@ -8,10 +8,10 @@
 - Monitoring architecture design
 - Health check data model
 - Service loader
+- Health checker
 
 ## Planned
 
-- Health checker
 - Status and history APIs
 - React dashboard
 - Auto-refresh and logs
