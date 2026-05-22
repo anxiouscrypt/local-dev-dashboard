@@ -9,10 +9,10 @@
 - Health check data model
 - Service loader
 - Health checker
+- Status and history APIs
 
 ## Planned
 
-- Status and history APIs
 - React dashboard
 - Auto-refresh and logs
 - Backend tests

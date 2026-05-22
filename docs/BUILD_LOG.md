@@ -22,3 +22,9 @@
 - Added async HTTP health checks with `httpx`.
 - Captured status code, response time, error message, and checked timestamp.
 - Represented connection failures as `unhealthy` status snapshots.
+
+## Phase 5: Status APIs
+
+- Added in-memory current status, recent history, and event logs.
+- Exposed service status, manual check, and history endpoints.
+- Returned unknown statuses before the first health check runs.
