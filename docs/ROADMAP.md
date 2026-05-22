@@ -13,9 +13,7 @@
 - React dashboard
 - Auto-refresh and logs
 - Backend tests
-
-## Planned
-
+- Local setup and dev runner
 
 ## Future Improvements
 

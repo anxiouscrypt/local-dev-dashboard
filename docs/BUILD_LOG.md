@@ -45,3 +45,9 @@
 
 - Added service loader tests.
 - Added health checker tests for healthy responses and connection failures.
+
+## Phase 9: Final Polish
+
+- Added README setup instructions and sample `services.json`.
+- Added `scripts/dev.sh` for running backend and frontend together.
+- Removed unused Vite starter files.

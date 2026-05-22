@@ -18,6 +18,7 @@ services.json -> service loader -> health checker -> status store -> API -> Reac
 - Local-only tool.
 - In-memory history resets when the backend restarts.
 - No background worker; checks run when the API is called.
+- The tool observes services but does not manage their processes.
 
 ## Service Definition
 
