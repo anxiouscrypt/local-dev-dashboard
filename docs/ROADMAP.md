@@ -5,6 +5,8 @@
 - Repository structure
 - Documentation baseline
 - Sample `services.json`
+- Monitoring architecture design
+- Health check data model
 
 ## Planned
 

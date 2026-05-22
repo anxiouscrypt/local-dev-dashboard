@@ -23,6 +23,14 @@ Screenshot placeholder: `docs/screenshots/local-dev-dashboard.png`
 
 `services.json` -> FastAPI health checker -> in-memory status store -> React dashboard.
 
+```txt
+services.json
+  -> FastAPI service loader
+  -> health checker
+  -> status store
+  -> React dashboard
+```
+
 ## Tech Stack
 
 - React, TypeScript, Vite

@@ -18,3 +18,34 @@ services.json -> service loader -> health checker -> status store -> API -> Reac
 - Local-only tool.
 - In-memory history resets when the backend restarts.
 - No background worker; checks run when the API is called.
+
+## Service Definition
+
+Each service has:
+
+- `name`
+- `url`
+- `port`
+- `description`
+
+The backend validates this shape when loading `services.json`.
+
+## Health Check Model
+
+Each check records:
+
+- service name
+- status: `healthy`, `unhealthy`, or `unknown`
+- HTTP status code when available
+- response time in milliseconds
+- error message when the request fails
+- timestamp
+
+Connection failures are expected in local development, so they are represented as normal status data instead of unhandled exceptions.
+
+## API Design
+
+- `GET /services` returns configured services.
+- `POST /services/check` actively checks all services and stores the latest results.
+- `GET /services/status` returns the latest status snapshot.
+- `GET /services/history` returns recent status history and event logs.
