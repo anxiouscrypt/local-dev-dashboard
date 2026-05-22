@@ -7,10 +7,10 @@
 - Sample `services.json`
 - Monitoring architecture design
 - Health check data model
+- Service loader
 
 ## Planned
 
-- Service loader
 - Health checker
 - Status and history APIs
 - React dashboard
