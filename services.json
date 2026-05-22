@@ -1,0 +1,16 @@
+{
+  "services": [
+    {
+      "name": "API Gateway",
+      "url": "http://localhost:8000/health",
+      "port": 8000,
+      "description": "Main FastAPI gateway"
+    },
+    {
+      "name": "Frontend",
+      "url": "http://localhost:5173",
+      "port": 5173,
+      "description": "Vite frontend"
+    }
+  ]
+}
