@@ -11,10 +11,10 @@
 - Health checker
 - Status and history APIs
 - React dashboard
+- Auto-refresh and logs
 
 ## Planned
 
-- Auto-refresh and logs
 - Backend tests
 
 ## Future Improvements

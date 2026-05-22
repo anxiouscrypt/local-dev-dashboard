@@ -34,3 +34,9 @@
 - Created the Vite React TypeScript frontend.
 - Added dashboard header, service cards, status badges, manual refresh, history, and event logs.
 - Connected the dashboard to backend status and history APIs.
+
+## Phase 7: Auto-Refresh and Logs
+
+- Added automatic health checks every 10 seconds.
+- Kept manual refresh available for immediate checks.
+- Refreshed history and event logs after every check.
