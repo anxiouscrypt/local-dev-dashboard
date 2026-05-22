@@ -6,11 +6,18 @@ import httpx
 from app.models import ServiceDefinition, ServiceStatus
 
 
-async def check_service(service: ServiceDefinition, timeout_seconds: float = 2.0) -> ServiceStatus:
+async def check_service(
+    service: ServiceDefinition,
+    timeout_seconds: float = 2.0,
+    transport: httpx.AsyncBaseTransport | None = None,
+) -> ServiceStatus:
     started = perf_counter()
 
     try:
-        async with httpx.AsyncClient(timeout=timeout_seconds) as client:
+        async with httpx.AsyncClient(
+            timeout=timeout_seconds,
+            transport=transport,
+        ) as client:
             response = await client.get(str(service.url))
         elapsed_ms = (perf_counter() - started) * 1000
         status = "healthy" if 200 <= response.status_code < 400 else "unhealthy"

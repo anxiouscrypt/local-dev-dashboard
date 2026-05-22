@@ -40,3 +40,8 @@
 - Added automatic health checks every 10 seconds.
 - Kept manual refresh available for immediate checks.
 - Refreshed history and event logs after every check.
+
+## Phase 8: Backend Tests
+
+- Added service loader tests.
+- Added health checker tests for healthy responses and connection failures.

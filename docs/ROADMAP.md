@@ -12,10 +12,10 @@
 - Status and history APIs
 - React dashboard
 - Auto-refresh and logs
+- Backend tests
 
 ## Planned
 
-- Backend tests
 
 ## Future Improvements
 
