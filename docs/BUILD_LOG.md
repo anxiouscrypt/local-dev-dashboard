@@ -28,3 +28,9 @@
 - Added in-memory current status, recent history, and event logs.
 - Exposed service status, manual check, and history endpoints.
 - Returned unknown statuses before the first health check runs.
+
+## Phase 6: Frontend Dashboard
+
+- Created the Vite React TypeScript frontend.
+- Added dashboard header, service cards, status badges, manual refresh, history, and event logs.
+- Connected the dashboard to backend status and history APIs.

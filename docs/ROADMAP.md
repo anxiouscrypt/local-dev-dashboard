@@ -10,10 +10,10 @@
 - Service loader
 - Health checker
 - Status and history APIs
+- React dashboard
 
 ## Planned
 
-- React dashboard
 - Auto-refresh and logs
 - Backend tests
 
